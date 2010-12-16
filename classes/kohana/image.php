@@ -532,7 +532,6 @@ abstract class Kohana_Image {
 
 		// The quality must be in the range of 1 to 100
 		$quality = min(max($quality, 1), 100);
-
 		return $this->_do_save($file, $quality);
 	}
 

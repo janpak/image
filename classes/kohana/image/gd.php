@@ -463,7 +463,7 @@ class Kohana_Image_GD extends Image {
 			$this->mime = image_type_to_mime_type($type);
 		}
 
-		return TRUE;
+		return $this;
 	}
 
 	protected function _do_render($type, $quality)
